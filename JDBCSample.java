@@ -7,7 +7,7 @@ public class JDBCSample {
    static final String DB_URL = "jdbc:mysql://localhost:3333/jdbc";
 
    //  Database credentials
-   static final String USER = "jdcb";
+   static final String USER = "jdbc";
    static final String PASS = "jdbc_pw";
    
    public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class JDBCSample {
    try{
 
       // Register JDBC driver
-      Class.forName("com.mysql.jdbc.Driver");
+      Class.forName(JDBC_DRIVER);
 
       // Open a connection
       System.out.println("Connecting to database...");

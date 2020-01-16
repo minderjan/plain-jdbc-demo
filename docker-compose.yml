@@ -8,5 +8,5 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: 1234
       MYSQL_DATABASE: jdbc
-      MYSQL_USER: jdcb
+      MYSQL_USER: jdbc
       MYSQL_PASSWORD: jdbc_pw
